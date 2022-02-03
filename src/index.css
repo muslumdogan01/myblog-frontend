@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Roboto:ital,wght@1,300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+
+}
+span{
+  font-family: 'Courgette', cursive !important;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+#profile_photo{
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+}
+
+li{
+  font-family: 'Cantata One', serif !important;
+  font-weight: normal !important;
+}
+
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  #postCard{
+    width: 15rem !important;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  #postCard{
+    width: 22rem !important;
+  }
+ }
